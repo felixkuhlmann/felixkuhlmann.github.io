@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond:ital@0;1&family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond:ital@0;1&family=Josefin+Sans&family=Jost&family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+    
+}
+
+body{
+    width: 100%;
+    position: relative; 
+    min-height: 100vh;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+  }
+
+  
+  h1 {
+    font-family: 'Bebas Neue', cursive;
+    color:black;
+    font-size: 40px;
+    margin-left: 30px;
+  }
+
+  h1:hover{
+      color: green;
+  }
+  
+
+  nav ul {
+    color: black;
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+    padding: 0;
+  }
+  
+  nav li {
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 20px;
+  }
+
+  nav a{
+      text-decoration: none;
+  }
+
+  nav a:hover{
+      color: green;
+  }
+  
+  @media screen and (max-width: 600px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav li {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }
+  
+
+main{
+    top: 100px;
+    position:relative;
+    margin:0 auto;
+    width: 100%;
+    padding-bottom: 250px;
+}
+
+.main{
+     width: 100%;
+
+}
+
+.name{
+    margin: 0 100px;
+    width: 100%;
+    display: flexbox;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.name img{
+    height: 500px;
+    margin: 30px auto;
+}
+
+.workexperience{
+   margin: 0 auto; 
+   width: 1000px; 
+   
+    
+}
+
+.workexperience h2{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.jobs{
+    margin: 10px auto;
+    padding: 25px 0px;
+}
+
+.jobs a {
+    text-decoration: none;
+}
+
+.companyname{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: black;
+    padding: 10px 0px;
+}
+
+
+.companyname:hover{
+color:green;
+}
+
+.position{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    padding: 10px 0px;
+}
+
+.position:hover{
+    color:green;
+}
+
+.jobtasks{
+    line-height: 2 ;
+}
+
+.jobtasks li{
+    list-style-type: circle ;
+}
+
+.education{
+    margin: 0 auto; 
+    width: 1000px; 
+ }
+
+ .education h2{
+    font-family: 'Bebas Neue', cursive;
+ }
+ 
+ .school{
+     font-family: 'Bebas Neue', cursive;
+     margin: 10px auto;
+     padding: 25px 0px;
+ }
+ 
+ .school a {
+     text-decoration: none;
+ }
+ 
+ .schoolname{
+    font-family: 'Bebas Neue', cursive;
+     text-align: center;
+     font-size: 30px;
+     color: black;
+     padding: 10px 0px;
+ }
+ 
+ 
+ .schoolname:hover{
+ color:green;
+ }
+ 
+ .coursename{
+     font-size: 24px;
+     padding: 10px 0px;
+ }
+ 
+ .coursename:hover{
+     color:green;
+ }
+ 
+ .content{
+     line-height: 2 ;
+ }
+ 
+ .content li{
+     list-style-type: circle ;
+ }
+
+ .more{
+    margin: 0 auto;
+    width: 1000px; 
+ }
+
+ .skills,.languages, .hobbies{
+    margin: 0 auto;
+    width: 1000px;
+    
+ }
+
+ .skills h2{
+    font-family: 'Bebas Neue', cursive;
+     text-align: center;
+ }
+ .languages h2{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+.hobbies h2{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+footer {
+    position: relative; 
+    margin-top: 50px;/* added */
+    bottom: 0; /* added */
+    width: 100%;
+    height: 300px;
+    background-color:green; 
+}
